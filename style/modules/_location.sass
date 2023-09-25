@@ -1,0 +1,60 @@
+.location
+    margin-top: 72px
+    background: rgba(242, 244, 250, 1)
+    &__wrap
+        max-width: 1096px
+        height: 297px
+        margin: 0 auto
+        display: flex
+        align-items: center
+        @media( max-width: 1300px)
+            padding: 0px 40px
+        @media( max-width: 1200px)
+            padding: 80px 24px
+            justify-content: space-between
+            flex-direction: column
+        @media( max-width: 620px)
+            align-items: start
+    &__title
+        h1
+            font-size: 2.25rem
+            margin-bottm: 24px
+        p
+            width: 407px
+        @media( max-width: 1200px)
+            text-align: center
+        @media( max-width: 620px)
+            width: 100%
+            text-align: start
+    .input__forms
+        display: flex
+        @media( max-width: 620px)
+            width: 100%
+    &__input
+        font-family: 'Martel Sans'
+        font-size: 1rem
+        box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08)
+        margin-left: 159px
+        height: 72px
+        width: 336px
+        border: none
+        padding-left: 48px
+        color: rgba(144, 147, 166, 1)
+        @media( max-width: 1200px)
+            margin: 0px
+        @media( max-width: 620px)
+            width: 70%
+        &:active, &:hover, &:focus
+            outline: 0
+            outline-offset: 0
+    &__butt
+        border: none
+        font-family: 'Martel Sans'
+        font-size: 1rem
+        color: rgba(183, 156, 16, 1)
+        background: rgba(255, 225, 69, 1)
+        height: 72px
+        width: 88px
+        margin-left: 4px
+        @media( max-width: 620px)
+            width: 26%
